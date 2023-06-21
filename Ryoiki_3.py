@@ -10,7 +10,7 @@ total_9 = 0
 
 total = 0
 
-for f in glob.glob('./OneDrive/学校/領域実習/ryoiki/sample/kitamura_*1_kgu.txt'):
+for f in glob.glob('sample/kitamura_*1_kgu.txt'):
     with open(os.path.join(os.getcwd(), f), 'r') as p:
         text = p.read()
 
@@ -20,7 +20,7 @@ for f in glob.glob('./OneDrive/学校/領域実習/ryoiki/sample/kitamura_*1_kgu
             continue
         total_1 += num
 
-for f in glob.glob('./OneDrive/学校/領域実習/ryoiki/sample/kitamura_*3_kgu.txt'):
+for f in glob.glob('sample/kitamura_*3_kgu.txt'):
     with open(os.path.join(os.getcwd(), f), 'r') as p:
         text = p.read()
 
@@ -30,7 +30,7 @@ for f in glob.glob('./OneDrive/学校/領域実習/ryoiki/sample/kitamura_*3_kgu
             continue
         total_3 += num
 
-for f in glob.glob('./OneDrive/学校/領域実習/ryoiki/sample/kitamura_*5_kgu.txt'):
+for f in glob.glob('sample/kitamura_*5_kgu.txt'):
     with open(os.path.join(os.getcwd(), f), 'r') as p:
         text = p.read()
 
@@ -40,7 +40,7 @@ for f in glob.glob('./OneDrive/学校/領域実習/ryoiki/sample/kitamura_*5_kgu
             continue
         total_5 += num
 
-for f in glob.glob('./OneDrive/学校/領域実習/ryoiki/sample/kitamura_*7_kgu.txt'):
+for f in glob.glob('sample/kitamura_*7_kgu.txt'):
     with open(os.path.join(os.getcwd(), f), 'r') as p:
         text = p.read()
 
@@ -50,7 +50,7 @@ for f in glob.glob('./OneDrive/学校/領域実習/ryoiki/sample/kitamura_*7_kgu
             continue
         total_7 += num
 
-for f in glob.glob('./OneDrive/学校/領域実習/ryoiki/sample/kitamura_*9_kgu.txt'):
+for f in glob.glob('sample/kitamura_*9_kgu.txt'):
     with open(os.path.join(os.getcwd(), f), 'r') as p:
         text = p.read()
 

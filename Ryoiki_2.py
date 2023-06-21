@@ -1,6 +1,6 @@
 import json  # jsonモジュールをインポートする
 
-with open('./OneDrive/学校/領域実習/catalog.json', 'r') as f:
+with open('catalog.json', 'r') as f:
     load = json.load(f)  # 開いたファイル(json_open)をjson.load関数でJSONにする
 
 total = 0
